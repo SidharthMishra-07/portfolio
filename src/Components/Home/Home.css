@@ -123,19 +123,76 @@
 /*=============== BREAKPOINTS ===============*/
   /* For large devices */
   @media screen and (max-width: 992px) {
-    
+        .home_content{
+            grid-template-columns: 100px repeat(2, 1fr);
+            column-gap: 1.25rem;
+        }
+        .home_hand{
+            width: 26px;
+            height: 26px;
+        }
+        .home_subtitle{
+            padding-left: 3.75rem;
+            margin-bottom: var(--mb-1);
+        }
+        .home_subtitle::before{
+            top: 0.8rem;
+            width: 42px;
+            height: 1px;
+        }
+        .home_description{
+            max-width: initial;
+            margin-bottom: var(--mb-2-5);
+        }
+        .home_img{
+            width: 250px;
+            height: 250px;
+            box-shadow: inset 0 0 0 8px rgba(255 255 255 / 30%);
+        }
+        .home_scroll{
+            margin-left: 7.5rem;
+        }
+  }
+  @media screen and (min-width:859px) and (max-width:930px){
+        .home_title{
+            font-size: 2.3rem;
+        }
   }
   
   /* For medium devices */
   @media screen and (max-width: 768px) {
-    
+        .home_content{
+            grid-template-columns: 0.5fr 3fr;
+            padding-top: 3.5rem;
+        }
+        .home_img{
+            order: initial;
+            justify-self: initial;
+            box-shadow: inset 0 0 0 6px rgba(255 255 255 / 30%);
+            width: 200px;
+            height: 200px;
+        }
+        .home_data{
+            grid-column: 1/3;
+        }
+        .home_scroll{
+            display: none;
+        }
   }
-  
-  @media screen and (max-width: 576px) {
-    
-  }
-  
+
   /* For small devices */
+  @media screen and (min-width:384px) and (max-width:421px){
+    .home_title{
+        font-size: 2.3rem;
+    }
+}
   @media screen and (max-width: 350px) {
-    
+        .home_img{
+            width: 180px;
+            height: 180px;
+        }
+        .home_hand{
+            width: 22px;
+            height: 22px;
+        }
   }
