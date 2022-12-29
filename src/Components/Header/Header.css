@@ -65,10 +65,12 @@
         box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.15);
         border-radius: 1.5rem 1.5rem 0 0;
         transition: 0.3s;
+        z-index: 200;
     }
     /*Show Menu*/
     .show-menu{
         bottom: 0;
+        z-index: 200;
     }
     .nav_list{
         display: grid;
@@ -106,6 +108,7 @@
 @media screen and (max-width: 350px) {
     .nav_menu{
         padding: 2rem 0.25rem 4rem;
+        z-index: 200;
     }
     .nav_list{
         column-gap: 0;
