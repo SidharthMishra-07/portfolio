@@ -3,6 +3,7 @@ import './Home.css';
 import Social from './Social';
 import Data from './Data';
 import Scroll from './Scroll';
+import Particle from './Particle';
 
 const Home = () => {
   return (
@@ -15,7 +16,9 @@ const Home = () => {
             </div>
 
             <Scroll />
-        </div>       
+        </div>
+        
+        <Particle />
     </section>
   )
 }
