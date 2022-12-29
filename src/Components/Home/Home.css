@@ -1,9 +1,14 @@
+.home_container{
+    row-gap: 7rem;
+}
 .home_content{
     grid-template-columns: 116px repeat(2, 1fr);
     padding-top: 5.5rem;
     column-gap: 2rem;
     align-items: center;
 }
+
+/* /Socials/ */
 .home_social{
     display: grid;
     grid-template-columns: max-content;
@@ -18,6 +23,8 @@
     color: var(--title-color-dark);
     font-size: 1.4rem;
 }
+
+/* /Title/ */
 .home_title{
     font-size: 2.6rem;
     margin-bottom: var(--mb-0-25);
@@ -48,6 +55,8 @@
     max-width: 400px;
     margin-bottom: var(--mb-3);
 }
+
+/* /Profile Img/ */
 .home_img{
     background: url(../../assets//Profile.jpeg) no-repeat center;
     background-size: cover;
@@ -62,6 +71,25 @@
 }
 .home_img:hover {
     transform: rotateY(180deg);
+}
+
+/* /Mouse/ */
+.home_scroll{
+    margin-left: 9.25rem;
+}
+.wheel{
+    animation: scroll 2s ease infinite;
+}
+.home_scroll-name{
+    color: var(--title-color);
+    font-weight: var(--font-medium);
+    margin-right: var(--mb-0-25);
+    margin-left: 2px;
+}
+.home_scroll-arrow{
+    font-size: 1.25rem;
+    color: var(--title-color);
+    transition: all .4s ease-in-out;
 }
 
 @keyframes flip{
@@ -81,5 +109,13 @@
     }
     100%{
         border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+    }
+}
+@keyframes scroll {
+    0%{
+        transform: translateY(0);
+    }
+    30%{
+        transform: translateY(3.75rem);
     }
 }
