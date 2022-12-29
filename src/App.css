@@ -4,12 +4,13 @@
 /* VARIABLES */
 :root{
   --header-height: 3rem;
+  /*COLORS*/
   --hue: 0;
-  --saturation: 0%;
-  --title-color: hsl(var(--hue), var(--saturation), 20%);
-  --title-color-dark: hsl(var(--hue), var(--saturation), 40%);
-  --text-color: hsl(var(--hue), var(--saturation), 46%);
-  --body-color: hsl(var(--hue), var(--saturation), 98%);
+  --sat: 0%;
+  --title-color: hsl(var(--hue), var(--sat), 20%);
+  --title-color-dark: hsl(var(--hue), var(--sat), 0%);
+  --text-color: hsl(var(--hue), var(--sat), 46%);
+  --body-color: hsl(var(--hue), var(--sat), 98%);
   --container-color: #fff;
 
   /* FONTS */
@@ -55,7 +56,7 @@
   }
 }
 
-/*=============== BASE ===============*/
+/*BASE*/
 * {
   margin: 0;
   padding: 0;
@@ -105,7 +106,7 @@ img {
   height: auto;
 }
 
-/*=============== REUSABLE CSS CLASSES ===============*/
+/*REUSABLE CSS CLASSES*/
 .section {
   padding: 6rem 0 2rem;
 }
