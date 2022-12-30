@@ -163,6 +163,22 @@ img {
   align-items: center;
 }
 
+/*================== SCROLLBAR =================*/
+
+::-webkit-scrollbar {
+  width: 11px;
+  cursor: pointer;
+}
+
+/* ::-webkit-scrollbar-track {
+  border-radius: 5px;
+} */
+
+::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background-color: var(--title-color-dark);
+}
+
 /*=============== BREAKPOINTS ===============*/
 /* For large devices */
 @media screen and (max-width: 992px) {
