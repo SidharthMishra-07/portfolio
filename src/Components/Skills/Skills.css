@@ -42,6 +42,11 @@
 .skills_level{
     font-size: var(--tiny-font-size);
 }
+.top{
+    margin-top: 20px;
+    color: black !important;
+    font-weight: var(--font-medium);
+}
 
 /*=============== BREAKPOINTS ===============*/
   /* For large devices */
