@@ -14,3 +14,30 @@
     padding: 0 4rem 0 0;
     margin-bottom: var(--mb-2-5);
 }
+
+/*=============== BREAKPOINTS ===============*/
+  /* For large devices */
+    @media screen and (max-width: 992px) {
+        .about_container{
+            grid-template-columns: 1fr;
+            row-gap: 3rem;
+        }
+        .about_img{
+            width: 220px;
+        }
+        .about_data{
+            text-align: center;
+        }
+        .about_description{
+            padding: 0 5rem;
+            margin-bottom: 2rem;
+        }
+    }
+
+/* For medium devices */
+@media screen and (max-width: 768px) {
+    .about_description{
+        padding: 0 ;
+    }
+}
+
