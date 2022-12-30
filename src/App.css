@@ -147,6 +147,7 @@ img {
   padding: 1.25rem 2rem;
   border-radius: 1rem;
   font-weight: var(--font-medium);
+  z-index: 1;
 }
 
 .button:hover {

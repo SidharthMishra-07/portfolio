@@ -1,0 +1,16 @@
+.about_container{
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    column-gap: 4rem;
+}
+.about_img{
+    width: 300px;
+    border-radius: 1.5rem;
+    justify-self: center;
+    z-index: 1;
+}
+.about_description{
+    text-align: justify;
+    padding: 0 4rem 0 0;
+    margin-bottom: var(--mb-2-5);
+}
