@@ -8,7 +8,23 @@
     border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 2rem 4rem;
     border-radius: 1.25rem;
+    transition: all 0.4s ease-in;
 }
+.skills_content:hover{
+    transform: translateY(-5px);
+    background-color: var(--title-color);
+    color: var(--body-color);
+}
+.skills_content:hover .skills_title{
+    color: white;
+}
+.skills_content:hover .skills_box .skills_data .skills_name{
+    color: white;
+}
+.skills_content:hover .skills_box .skills_data i{
+    color: white;
+}
+
 .skills_title{
     font-size: var(--normal-font-size);
     font-weight: var(--font-medium);
