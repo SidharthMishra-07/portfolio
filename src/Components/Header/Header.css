@@ -37,10 +37,12 @@
     display: none;
 }
 
+
 /*Active Link*/
 .active-link,
 .nav_link:hover{
     color: var(--title-color-dark);
+    font-weight: 500;
 }
 
 /*=============== BREAKPOINTS ===============*/
