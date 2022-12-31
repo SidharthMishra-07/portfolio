@@ -27,6 +27,9 @@ const Footer = () => {
                     <a href="https://github.com/SidharthMishra-07" className="footer_social-link" target="_blank" rel='noreferrer'>
                         <i className="bx bxl-github"></i>
                     </a>
+                    <a href="https://www.linkedin.com/in/sidharth-mishra-30b590211/" className="footer_social-link" target="_blank" rel='noreferrer'>
+                        <i className="bx bxl-linkedin"></i>
+                    </a>
 
                     <a href="https://www.instagram.com/its_captain_sid/" className="footer_social-link" target="_blank" rel='noreferrer'>
                         <i className="bx bxl-instagram"></i>
@@ -35,9 +38,12 @@ const Footer = () => {
                     <a href="https://twitter.com/Sid_Mishra07" className="footer_social-link" target="_blank" rel='noreferrer'>
                         <i className="bx bxl-twitter"></i>
                     </a>
+                    <a href="https://medium.com/codechef-vit/what-is-ajax-ddb403e3478e" className="footer_social-link" target="_blank" rel='noreferrer'>
+                        <i className="bx bxl-medium"></i>
+                    </a>
                 </div>
 
-                <span className="footer_copy">&#169; Sidharth Mishra. All rigths reserved</span>
+                <span className="footer_copy">&#169; Sidharth Mishra. All rights reserved</span>
             </div>
         </footer>
     )
