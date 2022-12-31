@@ -12,7 +12,6 @@ const About = () => {
         <div className="about_container container grid">
             <img src={AboutImg} alt="About" className="about_img" />  
             <div className="about_data">
-                
                 <p className="about_description">
                     I'm a pre-final year CS student at Vellore Institute of Technology. I am a Frontend developer and a competitive programmer. I am passionate about learning new technologies and implementing them in real world projects. I am also a member of the CodeChef-VIT technical chapter.
                 </p>
