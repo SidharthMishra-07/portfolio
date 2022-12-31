@@ -4,6 +4,7 @@
     justify-content: center;
 }
 .work_card{
+    max-width: 350px;
     background-color: var(--container-color);
     border: 1px solid rgba(0,0,0,0.1);
     padding: 1.25rem;
@@ -20,9 +21,16 @@
     font-weight: var(--font-medium);
     margin-bottom: var(--mb-0-5);
 }
-.work_button{
-    color: var(--text-color);
+.work_desc{
+    justify-content: center;
     font-size: var(--small-font-size);
+    margin-bottom: var(--mb-1);
+    color: var(--text-color);
+}
+.work_button{
+    color: var(--title-color-dark);
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-medium);
     display: flex;
     align-items: center;
     column-gap: 0.25rem;
