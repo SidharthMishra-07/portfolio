@@ -44,6 +44,7 @@ const Footer = () => {
                 </div>
 
                 <span className="footer_copy">&#169; Sidharth Mishra. All rights reserved</span>
+                <span className='center'>Made with ❤️ by Sidharth</span>
             </div>
         </footer>
     )

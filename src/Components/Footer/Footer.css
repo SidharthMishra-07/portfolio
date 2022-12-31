@@ -47,6 +47,13 @@
     margin-top: 4.5rem;
     font-size: var(--smaller-font-size);
 }
+.center{
+    display: block;
+    justify-content: center;
+    text-align: center;
+    margin-top: var(--mb-2);
+    color: var(--text-color);
+}
 
 /*=============== BREAKPOINTS ===============*/
   /* For large devices */

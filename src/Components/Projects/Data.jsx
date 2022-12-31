@@ -45,7 +45,7 @@ export const projectsData = [
       heading: "Portfolio website",
       title: "Web design",
       link:"https://github.com/SidharthMishra-07/portfolio",
-      desc:"My personal portfolio website. Developed using ReactJS and currently hosted on vercel. The website is fully responsive and is cross-browser compatible."
+      desc:"My personal portfolio website which you are currently viewing. Developed using ReactJS and currently hosted on vercel. The website is fully responsive and is cross-browser compatible."
     },
     {
       id: 6,
